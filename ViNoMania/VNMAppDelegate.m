@@ -7,6 +7,7 @@
 //
 
 #import "VNMAppDelegate.h"
+#import "rootViewController.h"
 
 @implementation VNMAppDelegate
 
@@ -17,6 +18,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    rootViewController *rvc = [[rootViewController alloc] init];
+    [self.window setRootViewController:rvc];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -11,6 +11,7 @@
 		5E8F764D16645A00007C95E9 /* rootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F764B16645A00007C95E9 /* rootViewController.xib */; };
 		5E8F765316645BA5007C95E9 /* VNTDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F765116645BA5007C95E9 /* VNTDViewController.m */; };
 		5E8F765416645BA5007C95E9 /* VNTDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F765216645BA5007C95E9 /* VNTDViewController.xib */; };
+		5E8F765716647395007C95E9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8F765616647395007C95E9 /* QuartzCore.framework */; };
 		6046D64B1664528C0098F086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6046D64A1664528C0098F086 /* UIKit.framework */; };
 		6046D64D1664528C0098F086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6046D64C1664528C0098F086 /* Foundation.framework */; };
 		6046D64F1664528C0098F086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6046D64E1664528C0098F086 /* CoreGraphics.framework */; };
@@ -26,6 +27,7 @@
 		5E8F765016645BA5007C95E9 /* VNTDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNTDViewController.h; sourceTree = "<group>"; };
 		5E8F765116645BA5007C95E9 /* VNTDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNTDViewController.m; sourceTree = "<group>"; };
 		5E8F765216645BA5007C95E9 /* VNTDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VNTDViewController.xib; sourceTree = "<group>"; };
+		5E8F765616647395007C95E9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6046D6461664528C0098F086 /* ViNoMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViNoMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6046D64A1664528C0098F086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6046D64C1664528C0098F086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8F765716647395007C95E9 /* QuartzCore.framework in Frameworks */,
 				6046D64B1664528C0098F086 /* UIKit.framework in Frameworks */,
 				6046D64D1664528C0098F086 /* Foundation.framework in Frameworks */,
 				6046D64F1664528C0098F086 /* CoreGraphics.framework in Frameworks */,
@@ -94,6 +97,7 @@
 		6046D6491664528C0098F086 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E8F765616647395007C95E9 /* QuartzCore.framework */,
 				6046D64A1664528C0098F086 /* UIKit.framework */,
 				6046D64C1664528C0098F086 /* Foundation.framework */,
 				6046D64E1664528C0098F086 /* CoreGraphics.framework */,
