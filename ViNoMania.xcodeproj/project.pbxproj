@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6046D64B1664528C0098F086 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6046D64A1664528C0098F086 /* UIKit.framework */; };
+		6046D64D1664528C0098F086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6046D64C1664528C0098F086 /* Foundation.framework */; };
+		6046D64F1664528C0098F086 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6046D64E1664528C0098F086 /* CoreGraphics.framework */; };
+		6046D6551664528C0098F086 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6046D6531664528C0098F086 /* InfoPlist.strings */; };
+		6046D6571664528C0098F086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046D6561664528C0098F086 /* main.m */; };
+		6046D65B1664528C0098F086 /* VNMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6046D65A1664528C0098F086 /* VNMAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6046D6461664528C0098F086 /* ViNoMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViNoMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6046D64A1664528C0098F086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6046D64C1664528C0098F086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6046D64E1664528C0098F086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6046D6521664528C0098F086 /* ViNoMania-Info.plist */ = {isa = PBXFileReference; path = "ViNoMania-Info.plist"; sourceTree = "<group>"; };
+		6046D6541664528C0098F086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6046D6561664528C0098F086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6046D6581664528C0098F086 /* ViNoMania-Prefix.pch */ = {isa = PBXFileReference; path = "ViNoMania-Prefix.pch"; sourceTree = "<group>"; };
+		6046D6591664528C0098F086 /* VNMAppDelegate.h */ = {isa = PBXFileReference; path = VNMAppDelegate.h; sourceTree = "<group>"; };
+		6046D65A1664528C0098F086 /* VNMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNMAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6046D6431664528C0098F086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6046D64B1664528C0098F086 /* UIKit.framework in Frameworks */,
+				6046D64D1664528C0098F086 /* Foundation.framework in Frameworks */,
+				6046D64F1664528C0098F086 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6046D63B1664528B0098F086 = {
+			isa = PBXGroup;
+			children = (
+				6046D6501664528C0098F086 /* ViNoMania */,
+				6046D6491664528C0098F086 /* Frameworks */,
+				6046D6471664528C0098F086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6046D6471664528C0098F086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6046D6461664528C0098F086 /* ViNoMania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6046D6491664528C0098F086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6046D64A1664528C0098F086 /* UIKit.framework */,
+				6046D64C1664528C0098F086 /* Foundation.framework */,
+				6046D64E1664528C0098F086 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6046D6501664528C0098F086 /* ViNoMania */ = {
+			isa = PBXGroup;
+			children = (
+				6046D6591664528C0098F086 /* VNMAppDelegate.h */,
+				6046D65A1664528C0098F086 /* VNMAppDelegate.m */,
+				6046D6511664528C0098F086 /* Supporting Files */,
+			);
+			path = ViNoMania;
+			sourceTree = "<group>";
+		};
+		6046D6511664528C0098F086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6046D6521664528C0098F086 /* ViNoMania-Info.plist */,
+				6046D6531664528C0098F086 /* InfoPlist.strings */,
+				6046D6561664528C0098F086 /* main.m */,
+				6046D6581664528C0098F086 /* ViNoMania-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6046D6451664528C0098F086 /* ViNoMania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6046D65E1664528C0098F086 /* Build configuration list for PBXNativeTarget "ViNoMania" */;
+			buildPhases = (
+				6046D6421664528C0098F086 /* Sources */,
+				6046D6431664528C0098F086 /* Frameworks */,
+				6046D6441664528C0098F086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViNoMania;
+			productName = ViNoMania;
+			productReference = 6046D6461664528C0098F086 /* ViNoMania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6046D63D1664528B0098F086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VNM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6046D6401664528B0098F086 /* Build configuration list for PBXProject "ViNoMania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6046D63B1664528B0098F086;
+			productRefGroup = 6046D6471664528C0098F086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6046D6451664528C0098F086 /* ViNoMania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6046D6441664528C0098F086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6046D6551664528C0098F086 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6046D6421664528C0098F086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6046D6571664528C0098F086 /* main.m in Sources */,
+				6046D65B1664528C0098F086 /* VNMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6046D6531664528C0098F086 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6046D6541664528C0098F086 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6046D65C1664528C0098F086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6046D65D1664528C0098F086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6046D65F1664528C0098F086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViNoMania/ViNoMania-Prefix.pch";
+				INFOPLIST_FILE = "ViNoMania/ViNoMania-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6046D6601664528C0098F086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViNoMania/ViNoMania-Prefix.pch";
+				INFOPLIST_FILE = "ViNoMania/ViNoMania-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6046D6401664528B0098F086 /* Build configuration list for PBXProject "ViNoMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6046D65C1664528C0098F086 /* Debug */,
+				6046D65D1664528C0098F086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6046D65E1664528C0098F086 /* Build configuration list for PBXNativeTarget "ViNoMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6046D65F1664528C0098F086 /* Debug */,
+				6046D6601664528C0098F086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6046D63D1664528B0098F086 /* Project object */;
+}
