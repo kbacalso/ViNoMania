@@ -20,11 +20,11 @@
 		6046D64A1664528C0098F086 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6046D64C1664528C0098F086 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6046D64E1664528C0098F086 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6046D6521664528C0098F086 /* ViNoMania-Info.plist */ = {isa = PBXFileReference; path = "ViNoMania-Info.plist"; sourceTree = "<group>"; };
+		6046D6521664528C0098F086 /* ViNoMania-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViNoMania-Info.plist"; sourceTree = "<group>"; };
 		6046D6541664528C0098F086 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6046D6561664528C0098F086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6046D6581664528C0098F086 /* ViNoMania-Prefix.pch */ = {isa = PBXFileReference; path = "ViNoMania-Prefix.pch"; sourceTree = "<group>"; };
-		6046D6591664528C0098F086 /* VNMAppDelegate.h */ = {isa = PBXFileReference; path = VNMAppDelegate.h; sourceTree = "<group>"; };
+		6046D6581664528C0098F086 /* ViNoMania-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViNoMania-Prefix.pch"; sourceTree = "<group>"; };
+		6046D6591664528C0098F086 /* VNMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VNMAppDelegate.h; sourceTree = "<group>"; };
 		6046D65A1664528C0098F086 /* VNMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VNMAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
